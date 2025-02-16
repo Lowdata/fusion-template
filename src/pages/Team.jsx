@@ -101,8 +101,28 @@ function Team() {
                 </div>
               </div>
 
+              <div className="col-md-4">
+                <div className="faction_card faction_marketing text-center">
+                  <img
+                    src="img/Team/hari.jpg"
+                    alt="Hari Hara"
+                    className="team_img"
+                    loading="lazy"
+                  />
+                  <h4>Hari Hara</h4>
+                  <p className="role"> Head Business Analyst
+                  </p>
+                  <p className="faction_name">
+                    Faction: Data Strategists 📊💡
+                  </p>
+                  <p className="faction_description">
+                  Galvanising and Strategic Business Analysis
+                  </p>
+                </div>
+              </div>
+
               {/* Senior Graphic Designer */}
-              {/* <div className="col-md-4">
+              <div className="col-md-4">
                 <div className="faction_card text-center faction_design">
                   <img
                     src="img/Team/khwaish.jpg"
@@ -117,7 +137,7 @@ function Team() {
                     Creating stunning visuals to dazzle and inspire.
                   </p>
                 </div>
-              </div> */}
+              </div>
 
               {/* Senior Concept Artist */}
               <div className="col-md-4">
